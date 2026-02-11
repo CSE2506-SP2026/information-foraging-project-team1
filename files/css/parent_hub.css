@@ -1,0 +1,7 @@
+@import url("common.css");
+@import url("side_menu.css");
+
+ul li ul {
+  padding-left: 20px; 
+  list-style-type: circle; 
+}
