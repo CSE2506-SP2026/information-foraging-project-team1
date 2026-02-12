@@ -1,2 +1,19 @@
 @import url("common.css");
 @import url("side_menu.css");
+@import url("accordian.css");
+.accordion {
+  font-size: 32px;     
+  padding: 18px 20px;  
+  /* font-weight: bold;    */
+  width: 100%;          
+  text-align: left;     
+}
+ ul {
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
