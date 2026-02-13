@@ -2,3 +2,15 @@
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
+.camp-container { display: flex; 
+    gap: 30px; 
+    align-items: flex-start; 
+}
+
+.camp-info { flex: 0 0 250px; 
+    background-color:#f9f9f9; 
+    padding:15px; 
+    border-radius:5px; 
+} 
+
+.camp-main { flex:1; }
