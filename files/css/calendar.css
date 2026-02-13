@@ -40,3 +40,66 @@
     margin-block-start: 0px;
     padding: 0px 0px 10px 20px;
 }
+
+.hours-card {
+    border: 1px solid #eee;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hours-card h2 {
+    color: rgb(85, 85, 85);
+    background-color: #eee;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+    padding: 20px;
+}
+
+.hours-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 20px;
+}
+
+.hours-item {
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    padding: 16px;
+}
+
+.hours-item h3 {
+    color: rgb(85, 85, 85);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.hours-item p {
+    color: rgb(85, 85, 85);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px; 
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.hours-note {
+    font-size: 15px;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.hours-highlight {
+    border: 2px solid #eee;
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 900px) {
+    .hours-grid {
+        grid-template-columns: 1fr;
+    }
+}
