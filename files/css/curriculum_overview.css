@@ -53,3 +53,10 @@ main li {
     margin-bottom: 0.65em;
     line-height: 1.5;
 }
+
+#curriculum-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
