@@ -9,8 +9,12 @@
     border-radius:5px; 
 } 
 
-#camp-main { display: flex; 
-    flex-direction: row; 
-    gap: 30px; 
-    align-items: flex-start; 
+#page-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+#main-camp {
+    flex: 1;
 }
