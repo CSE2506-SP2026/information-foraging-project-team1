@@ -58,6 +58,12 @@ main h3 {
     line-height: 37px;
 }
 
+/* Ensure classroom section headings render visibly bold. */
+main .tbheader,
+main .tbheader strong {
+    font-weight: 700;
+}
+
 main p a,
 main h1 a,
 main h2 a,
