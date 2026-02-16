@@ -137,6 +137,15 @@ header a {
     white-space: normal;
 }
 
+.student-info-dropdown a {
+    display: block;
+    line-height: 1.4;
+}
+
+.student-info-dropdown a + a {
+    margin-top: 6px;
+}
+
 
 /* Add a grey background color to dropdown links on hover */
 
